@@ -1,0 +1,53 @@
+body{
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.main{
+   height: 100vh;
+   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.sub{
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+img{
+  width: 100px;
+  height: 80px;
+}
+.heading{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.result{
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 200px;
+ 
+
+}
+.bmi{
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+ 
+}
+.bmi-result{
+  width: 100px;
+  height: 50px;
+  border-radius: 70px;
+ background-color:#3d8ffa;
+}
+.bmi-result h1{
+  text-align: center;
+}
+
+
